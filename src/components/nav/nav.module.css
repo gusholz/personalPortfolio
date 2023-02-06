@@ -1,0 +1,22 @@
+.menuNav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.lista {
+    list-style: none;
+}
+
+.images{
+    width: 4vh;
+    margin-bottom: 5vh;
+}
+
+.menuHamburguer{
+    width: 4vh;
+    margin-bottom: 55vh;
+}

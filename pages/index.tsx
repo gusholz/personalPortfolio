@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import App from "../src/app";
 
 export default function Home () {
-    return <h1>Oi</h1>
-}
+    return (
+        <App/>
+)}
