@@ -4,7 +4,7 @@
     position: fixed;
     height: 80vh;
     margin-top: 10vh;
-    margin-left: 5vw;
+    margin-left: 94vw;
 }
 
 .lista {
@@ -19,4 +19,22 @@
 .menuHamburguer{
     width: 4vh;
     margin-bottom: 55vh;
+}
+
+.menuDesabilitado{
+    display: none;
+    transition: 2;
+    transition: ease-in-out;
+}
+
+.menu{
+    transition: 2s;
+    transition: ease-in-out;
+    width: 40%;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    margin-left: 90vw;
 }
