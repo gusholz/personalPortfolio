@@ -1,5 +1,6 @@
-import { use, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from './chamada.module.css'
+import { useTransform,useScroll, motion } from 'framer-motion';
 
 export default function Chamada(props:{children:string,subtitulo:string}):JSX.Element{
 
@@ -27,10 +28,12 @@ export default function Chamada(props:{children:string,subtitulo:string}):JSX.El
 
     return (
         <div className={styles.container}>
-            <section className={styles.secao}>
-                <h1 className={styles.h1}>{props.children}</h1>
-                <h2 className={styles.h2}>{blinking}</h2>
-            </section>
-        </div>
+                <section className={styles.secao}>
+                    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true }} transition={{duration:2}}>
+                        <h1 className={styles.h1}>{props.children}</h1>
+                        <h2 className={styles.h2}>{blinking}</h2>
+                    </motion.div>
+                </section>
+            </div>
     )
 }

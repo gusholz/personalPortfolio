@@ -19,6 +19,7 @@
   "homepage": "https://github.com/gusholz/personalPortfolio#readme",
   "dependencies": {
     "@nextcss/reset": "^0.2.4-beta",
+    "framer-motion": "^9.0.2",
     "next": "^13.1.6",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",

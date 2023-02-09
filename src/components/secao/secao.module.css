@@ -1,8 +1,17 @@
-/*
-Outra cor de background
-#0066cc
+@font-face {
+    font-family: oswald-bold;
+    src: url(../../../public/fonts/Oswald-Bold.ttf);
+}
 
-*/
+@font-face {
+    font-family: oswald-regular;
+    src: url(../../../public/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswald-light;
+    src: url(../../../public/fonts/Oswald-Light.ttf);
+}
 
 .container{
     width: 100%;
@@ -29,25 +38,44 @@ Outra cor de background
 .subContainer{
     display: flex;
     flex-direction: row;
+    width: 120%;
+}
+
+.gif{
+    max-width: 512px;
+    height: fit-content;
 }
 
 .wrapper{
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    max-width: fit-content;
+    margin-left: 10%;
 }
 
 .titulo{
+    font-family: oswald-regular;
     font-size: 44px;
     width: 120%;
     margin-bottom: 3%;
 }
 
 .sub_titulo{
-    font-size: 30px;
+    font-family: oswald-regular;
+    font-size: 36px;
+    text-align: left;
+}
+
+.sub_titulo_underline{
+    font-family: oswald-regular;
+    font-size: 36px;
+    text-align: left;
+    text-decoration: underline;
 }
 
 .texto{
-    font-size: 18px;
+    font-family: oswald-light;
     text-align: left;
+    font-size: 22px;
+    line-height: 160%;
 }
