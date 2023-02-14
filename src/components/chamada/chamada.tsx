@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import styles from './chamada.module.css'
-import { useTransform,useScroll, motion } from 'framer-motion';
+import { motion } from 'framer-motion'
+import Carousel from './carroussel';
+
 
 export default function Chamada(props:{children:string,subtitulo:string}):JSX.Element{
 
@@ -28,6 +30,7 @@ export default function Chamada(props:{children:string,subtitulo:string}):JSX.El
 
     return (
         <div className={styles.container}>
+                <Carousel/>
                 <section className={styles.secao}>
                     <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true }} transition={{duration:2}}>
                         <h1 className={styles.h1}>{props.children}</h1>
@@ -35,5 +38,5 @@ export default function Chamada(props:{children:string,subtitulo:string}):JSX.El
                     </motion.div>
                 </section>
             </div>
-    )
+    );
 }

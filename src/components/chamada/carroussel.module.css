@@ -1,0 +1,18 @@
+.carousel{
+    display: flex;
+    position: absolute;
+    top: 16%;
+    right: 20px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+.imgs{
+    max-width: 216px;
+    max-height: 216px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+  

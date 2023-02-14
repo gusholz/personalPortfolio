@@ -8,10 +8,11 @@ import '@nextcss/reset';
 
 export default function App () {
 
+    const id = `#trabalhos`
 
     return (
     <div className={styles.wrapper}>
-            <Nav/>
+            <Nav id={id}/>
             <Chamada subtitulo={"Designer e Dev Front-end"}>Gustavo Holzmann</Chamada>
         <Sessao 
             backgroundColor={true}
@@ -30,7 +31,7 @@ export default function App () {
             backgroundColor={false} 
             titulo='Hoje, fico extremamente feliz com essa decisão, pois compreendo que' 
             subtitulo='o Design é o intermediador entre o usuário e a tecnologia'
-            subtitulo2='A experiência de usuário como pré-requisito de qualquer projeto' 
+            subtitulo2='e a Experiência de Usuário é pré-requisito de qualquer projeto de excelência' 
             nomeGif={`quarto`}
         >
             E somente ao unir esses dois conhecimentos, posso desenvolver
@@ -39,6 +40,7 @@ export default function App () {
             de desenvolvimento do projeto, para, finalmente, entregar um produto de excêlencia. Nesse sentido,
             minha experiência com UX também se demonstra muito proveitosa.
         </Sessao>
-        <FormContato></FormContato>
+        
+        <FormContato id={id}></FormContato>
     </div>
 )}

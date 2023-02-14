@@ -1,10 +1,8 @@
 .menuNav{
-    display: flex;
-    flex-direction: column;
     position: fixed;
-    height: 80vh;
     margin-top: 10vh;
     margin-left: 92vw;
+    z-index: 1000;
 }
 
 .lista {
@@ -20,13 +18,14 @@
 .menuHamburguer{
     cursor: pointer;
     width: 4vh;
-    margin-bottom: 52vh;
+    margin-bottom: 44vh;
   }
 
 .menuX{
     cursor: pointer;
     width: 2.5vh;
     margin-bottom: 5vh;
+    z-index: 1000;
 }
 
 
@@ -43,6 +42,7 @@
     position: fixed;
     height: 100vh;
     margin-left: 90vw;
+    z-index: 1000;
 }
 
 .li{

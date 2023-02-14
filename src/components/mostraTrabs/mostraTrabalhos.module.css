@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.trabalhos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images{
+    max-width: 35vh;
+    padding: 8%;
+}
+
+.h2{
+    font-size: 48px;
+}
+
+.h3{
+    font-size: 30px;
+}
+
+.despedida{
+    margin-top: 29%;
+    font-size: 72px;
+}

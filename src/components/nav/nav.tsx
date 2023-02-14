@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import styles from './nav.module.css'
 
-export default function Nav(): JSX.Element{
+export default function Nav(props:{id}): JSX.Element{
 
     let jsx = <></>
 
@@ -35,6 +35,9 @@ export default function Nav(): JSX.Element{
                         </motion.li>
                         <motion.li className={styles.li}>
                             <h2 className={styles.infos}>Currículo</h2>     
+                        </motion.li>
+                        <motion.li className={styles.li}>
+                            <h2 className={styles.infos}>Trabalhos</h2> 
                         </motion.li>
                     </ul>
                 </nav>     
