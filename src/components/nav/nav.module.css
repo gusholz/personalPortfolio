@@ -1,3 +1,13 @@
+@font-face {
+    font-family: oswald-regular;
+    src: url(../../../public/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswald-light;
+    src: url(../../../public/fonts/Oswald-Light.ttf);
+}
+
 .menuNav{
     position: fixed;
     margin-top: 10vh;
@@ -28,7 +38,6 @@
     z-index: 1000;
 }
 
-
 .menuDesabilitado{
     display: none;
 }
@@ -36,7 +45,7 @@
 .menu{
     padding: 0;
     width: 40%;
-    background-color: tomato;
+    background-color: #0066cc;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -46,11 +55,18 @@
 }
 
 .li{
-    margin-bottom: 100%;
+    margin-top: 20%;
+    margin-bottom: 80%;
 }
 
 .infos{
-    text-align: right;
-    font-size: 24px;
+    text-align: left;
+    font-size: 22px;
+    font-family: oswald-regular;
 }
-  
+
+.descricao{
+    font-size: 16px;
+    font-family: oswald-light;
+    margin-bottom: 55%;
+}

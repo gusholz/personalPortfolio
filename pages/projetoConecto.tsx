@@ -4,16 +4,16 @@ import '@nextcss/reset';
 export default function Home () {
     return (
         <PaginaTrab
-            titulo={"Countdown Persona 5"}
-            subtitulo={"Um contador que fiz para o lançamento do jogo para PC"}
-            srcImg={`images/screenshot1countdown.png`}
+            titulo={"Site Interativo do Projeto Co.necto"}
+            subtitulo={"Deploy de um site com real utilização por usuário"}
+            srcImg={`images/screenshotProjetoConecto.png`}
             link={`https://gusholz.github.io/countdownPersona/`}
             guiaLink={'O link do site está logo abaixo'}
         >
-            Esse foi meu primeiro projeto utilizando o React, e inicialmente, como foi difícil! Tive certa dificuldade em compreender bem
-            a lógica de uso da livraria. Apesar disso, o uso dos Hooks me ajudou muito. Com isso, criei esse site baseado em um jogo que
-            gosto muito como projeto de imersão ao React durante as minhas férias, e creio que a experiência foi bem rica nesse sentido!
-            Criei também, utilizando uma API de procuras, um "feed" de notícias que se atualizava a cada 8 horas, tornando a experiência
-            do site mais rica.
+            Meu site mais complexo até então, o site do Co.necto tinha como missão demonstrar de um
+            modo amigável e interativo a natureza do projeto. Como empecilhos técnicos, tive como maiores
+            dificuldades a implementação de um modo Dark Mode de forma manual, bem como uma opção de aumentar/diminuir
+            a fonte. Além disso, via processing, criei uma interação na parte inicial do site, para tornar a visitação 
+            mais atrativa e demonstrar como este tipo de experiência é a base do projeto. 
         </PaginaTrab>
 )}

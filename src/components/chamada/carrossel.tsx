@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import React from "react";
-import styles from "./carroussel.module.css";
+import styles from "./carrossel.module.css";
 
 
-  export default function Carousel(){
+  export default function Carrossel(){
     return (
         <motion.div 
             initial={{ x: 600 }}

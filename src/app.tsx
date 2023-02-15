@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import Chamada from '../src/components/chamada/chamada';
+import React from 'react';
+import Chamada from './components/chamada/capa';
 import FormContato from '../src/components/formContato/formContato';
 import Nav from '../src/components/nav/nav';
 import Sessao from './components/secao/secao';
@@ -11,9 +11,9 @@ export default function App () {
     const id = `#trabalhos`
 
     return (
-    <div className={styles.wrapper}>
-            <Nav/>
-            <Chamada subtitulo={"Designer e Dev Front-end"}>Gustavo Holzmann</Chamada>
+    <>
+        <Nav/>
+        <Chamada subtitulo={"Designer e Dev Front-end"}>Gustavo Holzmann</Chamada>
         <Sessao 
             backgroundColor={true}
             titulo='Desmotivado durante a quarentena, comecei a estudar programação' 
@@ -40,7 +40,6 @@ export default function App () {
             de desenvolvimento do projeto, para, finalmente, entregar um produto de excêlencia. Nesse sentido,
             minha experiência com UX também se demonstra muito proveitosa.
         </Sessao>
-        
         <FormContato id={id}></FormContato>
-    </div>
+    </>
 )}

@@ -7,10 +7,9 @@ export default function Formulario() {
   if (state.succeeded) {
       return (
         <div>
-            <p className={styles.agradecimento}>em breve retornarei o contato!</p>
-
+            <p className={styles.agradecimento}>Obrigado pela mensagem! Em breve retornarei o contato ;)</p>
         </div>
-      )
+      );
   }
   return (
     <form onSubmit={handleSubmit} className={styles.formulario}>

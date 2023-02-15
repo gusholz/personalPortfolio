@@ -1,8 +1,6 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
 import styles from './formContato.module.css'
 import MostraTrabs from '../mostraTrabs/mostraTrabalhos'
-import ContactForm from './formulario';
 import Formulario from './formulario';
 
 export default function FormContato(props:{id:string}):JSX.Element {

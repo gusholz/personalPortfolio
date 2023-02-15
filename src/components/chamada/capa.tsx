@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import styles from './chamada.module.css'
+import styles from './capa.module.css'
 import { motion } from 'framer-motion'
-import Carousel from './carroussel';
+import Carousel from './carrossel';
 
 
 export default function Chamada(props:{children:string,subtitulo:string}):JSX.Element{

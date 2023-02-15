@@ -8,7 +8,7 @@ export default function Home () {
             subtitulo={"Um contador que fiz para o lançamento do jogo para PC"}
             srcImg={`images/screenshot1countdown.png`}
             link={`https://gusholz.github.io/countdownPersona/`}
-            guiaLink={'O site está disponível no link abaixo (API de Buscas foi desabilitada por a key ter sido encerrada :c) O site está disponível no link abaixo (API de Buscas foi desabilitada por a key ter sido encerrada :c) '}
+            guiaLink={'O site está disponível no link abaixo (API de Buscas foi desabilitada por a key ter sido encerrada :c)'}
         >
             Esse foi meu primeiro projeto utilizando o React, e inicialmente, como foi difícil! Tive certa dificuldade em compreender bem
             a lógica de uso da livraria. Apesar disso, o uso dos Hooks me ajudou muito. Com isso, criei esse site baseado em um jogo que
