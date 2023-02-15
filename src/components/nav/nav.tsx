@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import styles from './nav.module.css'
 
-export default function Nav(props:{id}): JSX.Element{
+export default function Nav(): JSX.Element{
 
     let jsx = <></>
 

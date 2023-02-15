@@ -12,7 +12,7 @@ export default function App () {
 
     return (
     <div className={styles.wrapper}>
-            <Nav id={id}/>
+            <Nav/>
             <Chamada subtitulo={"Designer e Dev Front-end"}>Gustavo Holzmann</Chamada>
         <Sessao 
             backgroundColor={true}

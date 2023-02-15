@@ -1,3 +1,13 @@
+@font-face {
+    font-family: oswald-bold;
+    src: url(../../../public/fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: oswald-regular;
+    src: url(../../../public/fonts/Oswald-Regular.ttf);
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -14,14 +24,18 @@
 }
 
 .h2{
+    font-family: oswald-bold;
     font-size: 48px;
 }
 
 .h3{
+    font-family: oswald-regular;
     font-size: 30px;
 }
 
 .despedida{
+    width: 100%;
+    font-family: oswald-regular;
     margin-top: 29%;
     font-size: 72px;
 }

@@ -4,7 +4,7 @@ import styles from './secao.module.css'
 export default function Sessao(props:{titulo:string,subtitulo:string,children:string,nomeGif:string,backgroundColor:boolean,subtitulo2:string}):JSX.Element{
 
     return (
-        <div className={props.backgroundColor?`${styles.container}`:`${styles.container2}`} >
+        <div className={props.backgroundColor?`${styles.container}`:`${styles.container}`} >
             <section className={styles.secao}>
                 <h2 className={styles.titulo}>
                     {props.titulo}

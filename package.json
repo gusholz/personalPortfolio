@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gusholz/personalPortfolio#readme",
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@nextcss/reset": "^0.2.4-beta",
     "framer-motion": "^9.0.2",
     "next": "^13.1.6",

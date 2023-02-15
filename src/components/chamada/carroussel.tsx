@@ -1,4 +1,3 @@
-import { reverse } from "dns";
 import { motion } from "framer-motion";
 import React from "react";
 import styles from "./carroussel.module.css";
@@ -80,32 +79,34 @@ import styles from "./carroussel.module.css";
                 initial={{opacity:0.5}} 
                 whileHover={{rotate:6, opacity :1}}
                 whileTap={{scale:0.9}} 
+                transition={{duration:0.6, type:'spring'}} 
                 className={styles.imgs} 
                 src={`images/5.jpg`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
                 whileHover={{rotate:6, opacity :1}}
-                whileTap={{scale:0.9}} 
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
                 src={`images/6.jpg`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
                 whileHover={{rotate:6, opacity :1}}
-                whileTap={{scale:0.9}} 
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
                 src={`images/7.png`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
                 whileHover={{rotate:6, opacity :1}}
-                whileTap={{scale:0.9}} 
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
                 src={`images/8.png`}>
             </motion.img>
-
-
         </motion.div>
     );
   };
