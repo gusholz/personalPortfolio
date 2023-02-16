@@ -1,11 +1,11 @@
 @font-face {
     font-family: oswald-bold;
-    src: url(../../../public/fonts/Oswald-Bold.ttf);
+    src: url(../../../../public/fonts/Oswald-Bold.ttf);
 }
 
 @font-face {
     font-family: oswald-regular;
-    src: url(../../../public/fonts/Oswald-Regular.ttf);
+    src: url(../../../../public/fonts/Oswald-Regular.ttf);
 }
 
 .container{

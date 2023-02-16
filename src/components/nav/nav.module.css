@@ -10,14 +10,17 @@
 
 .menuNav{
     position: fixed;
-    margin-top: 10vh;
+    height: 100vh;
+    padding-right: 2% ;
+    padding-left: 2%;
     margin-left: 92vw;
     z-index: 1000;
 }
 
+
 .lista {
     list-style: none;
-    min-height: 80vh;
+    min-height: 100%;
 }
 
 .images{
@@ -25,38 +28,10 @@
     margin-bottom: 5vh;
 }
 
-.menuHamburguer{
-    cursor: pointer;
-    width: 4vh;
-    margin-bottom: 44vh;
-  }
-
-.menuX{
-    cursor: pointer;
-    width: 2.5vh;
-    margin-bottom: 5vh;
-    z-index: 1000;
-}
-
-.menuDesabilitado{
-    display: none;
-}
-
-.menu{
-    padding: 0;
-    width: 40%;
-    background-color: #0066cc;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    height: 100vh;
-    margin-left: 90vw;
-    z-index: 1000;
-}
 
 .li{
     margin-top: 20%;
-    margin-bottom: 80%;
+
 }
 
 .infos{
@@ -69,4 +44,55 @@
     font-size: 16px;
     font-family: oswald-light;
     margin-bottom: 55%;
+}
+
+.hamburguerMenu {
+    cursor: pointer;
+    z-index: 2000;
+    height: 100px;
+    position: relative;
+    margin-bottom: 30vh;
+}
+  
+.hamburguerMenuBar1{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    display: block;
+    top: 45%;
+    left: 0;
+    transform-origin: center center;
+}
+
+.hamburguerMenuBar2{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    display: block;
+    bottom: -38%;
+    left: 0;
+    transform-origin: center center;
+}
+
+
+.hamburguerMenuBarTransition{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    display: block;
+    top: 50%;
+    left: 0;
+    transform-origin: center center;
+}
+  
+.menuLinks{
+    position: fixed;
+    padding-left: 1%;
+    z-index: 2000;
+    width: fit-content;
+    height: 100%;
+    background-color: #0066cc;
 }

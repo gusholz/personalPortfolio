@@ -41,7 +41,6 @@ export default function MostraTrabs():JSX.Element{
                             src={`images/screenshotProjetoConecto.png`}>
                         </motion.img>
                     </Link>
-                <h3 className={styles.despedida}>Até a próxima :)</h3>
                 </div>
             </div>
         </>

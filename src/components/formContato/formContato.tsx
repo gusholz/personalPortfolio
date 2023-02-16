@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './formContato.module.css'
-import MostraTrabs from '../mostraTrabs/mostraTrabalhos'
+import MostraTrabs from './mostraTrabs/mostraTrabalhos'
 import Formulario from './formulario';
 
 export default function FormContato(props:{id:string}):JSX.Element {
