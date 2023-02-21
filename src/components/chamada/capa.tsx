@@ -2,11 +2,16 @@ import { useEffect, useState } from 'react'
 import styles from './capa.module.css'
 import { motion } from 'framer-motion'
 import Carousel from './carrossel';
+import Carregamento from './carregamento';
 
 
 export default function Chamada(props:{children:string,subtitulo:string}):JSX.Element{
 
     const [blinking,setBlinking] = useState(props.subtitulo);
+    const [loaded, setLoaded] = useState(false);
+    useEffect(() => {
+      setTimeout(() => setLoaded(true), 5000); // simulando tempo de carregamento
+    }, []);
     
     //Tempo em milisegundos do efeito de digitando
     const tempoEfeitoBlinking = 750;
@@ -30,9 +35,10 @@ export default function Chamada(props:{children:string,subtitulo:string}):JSX.El
 
     return (
         <div className={styles.container}>
+                {!loaded ? <Carregamento /> : null}
                 <Carousel/>
                 <section className={styles.secao}>
-                    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true }} transition={{duration:2}}>
+                    <motion.div>
                         <h1 className={styles.h1}>{props.children}</h1>
                         <h2 className={styles.h2}>{blinking}</h2>
                     </motion.div>

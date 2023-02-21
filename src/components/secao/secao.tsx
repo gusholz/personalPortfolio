@@ -10,7 +10,13 @@ export default function Sessao(props:{titulo:string,subtitulo:string,children:st
                     {props.titulo}
                 </h2>
                 <div className={styles.subContainer}>
-                    <img className={styles.gif} alt="" src={`images/${props.nomeGif}.gif`}></img>
+                    <motion.img 
+                        whileHover={{rotate:2}}
+                        whileTap={{scale:0.9}}  
+                        className={styles.gif} 
+                        alt="" 
+                        src={`images/${props.nomeGif}.gif`}>
+                    </motion.img>
                     <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true }} transition={{duration:3}}>
                         <div className={styles.wrapper}>
                             <h3 className={styles.sub_titulo}>

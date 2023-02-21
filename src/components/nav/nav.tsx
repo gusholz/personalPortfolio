@@ -13,7 +13,7 @@ export default function Nav(): JSX.Element{
     }
 
     const menuVariants = {
-        hidden: { x: 0 },
+        hidden: { x: "-40%" },
         visible: { x: "100%" },
     };
 

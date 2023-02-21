@@ -25,7 +25,7 @@
 .secao{
     display: flex;
     justify-content: left;
-    align-items: last baseline;
+    align-items: flex-end;
     width: 100%;
     padding: 10%;
 }

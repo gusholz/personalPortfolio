@@ -17,33 +17,15 @@
     z-index: 1000;
 }
 
-
-.lista {
-    list-style: none;
-    min-height: 100%;
-}
-
 .images{
     width: 4vh;
     margin-bottom: 5vh;
-}
-
-
-.li{
-    margin-top: 20%;
-
-}
-
-.infos{
-    text-align: left;
-    font-size: 22px;
-    font-family: oswald-regular;
+    margin-top: 5vh;
 }
 
 .descricao{
     font-size: 16px;
     font-family: oswald-light;
-    margin-bottom: 55%;
 }
 
 .hamburguerMenu {
@@ -51,7 +33,7 @@
     z-index: 2000;
     height: 100px;
     position: relative;
-    margin-bottom: 30vh;
+    margin-bottom: 35vh;
 }
   
 .hamburguerMenuBar1{
@@ -89,10 +71,23 @@
 }
   
 .menuLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: fixed;
-    padding-left: 1%;
-    z-index: 2000;
-    width: fit-content;
+    top: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    z-index: 1000;
+    width: auto;
     height: 100%;
     background-color: #0066cc;
+}
+
+.infos{
+    text-align: left;
+    font-size: 22px;
+    font-family: oswald-regular;
+    margin-bottom: 10%;
 }
