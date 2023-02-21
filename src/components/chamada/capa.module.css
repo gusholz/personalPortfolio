@@ -48,7 +48,7 @@
 }
 
  /* Estilos para telas de 1200 pixels ou mais */
- @media only screen and (min-width: 1200px) {
+ @media only screen and (max-width: 1200px) {
     .h1{
         font-size: 100px;
     }
@@ -64,6 +64,9 @@
     .h2{
         font-size: 30px;
     }
+    .subContainer{
+        padding-bottom: 18%;
+    }
   }
   
   /* Estilos para telas de 768 pixels ou mais */
@@ -74,15 +77,23 @@
     .h2{
         font-size: 24px;
     }
+    .subContainer{
+        padding-bottom: 28%;
+    }
   }
  
   /* Estilos para telas de 601 pixels ou mais */
   @media only screen and (max-width: 601px) {
     .h1{
         font-size: 50px;
+        white-space: pre-wrap;
+        max-width: 40%;
     }
     .h2{
         font-size: 20px;
+    }
+    .subContainer{
+        padding-bottom: 40%;
     }
   }
   

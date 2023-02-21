@@ -14,5 +14,10 @@
     overflow: hidden;
 }
 
-
+@media only screen and (max-width: 601px){
+  .imgs{
+    max-width: 151.2px;
+    max-height: 151.2px;
+  }
+}
   
