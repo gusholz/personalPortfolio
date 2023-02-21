@@ -39,3 +39,31 @@
     margin-top: 29%;
     font-size: 72px;
 }
+
+@media only screen and (max-width: 992px) {
+    .h2{
+        font-size: 40px;
+    }
+    .h3{
+        font-size: 28px;
+    }
+    
+    .images{
+        max-width: 80vw;
+    }
+
+}
+
+@media only screen and (max-width: 601px) {
+    .images{
+        max-width: 80vw;
+    }
+
+    .h2{
+        font-size: 28px;
+    }
+    .h3{
+        font-size: 20px;
+    }
+
+}

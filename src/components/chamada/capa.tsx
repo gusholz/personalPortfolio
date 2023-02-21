@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import styles from './capa.module.css'
 import { motion } from 'framer-motion'
-import Carousel from './carrossel';
-import Carregamento from './carregamento';
+import Carousel from './carrosel/carrossel';
+import Carregamento from './carregamento/carregamento';
 
 
 export default function Chamada(props:{children:string,subtitulo:string}):JSX.Element{
@@ -38,7 +38,7 @@ export default function Chamada(props:{children:string,subtitulo:string}):JSX.El
                 {!loaded ? <Carregamento /> : null}
                 <Carousel/>
                 <section className={styles.secao}>
-                    <motion.div>
+                    <motion.div className={styles.subContainer}>
                         <h1 className={styles.h1}>{props.children}</h1>
                         <h2 className={styles.h2}>{blinking}</h2>
                     </motion.div>

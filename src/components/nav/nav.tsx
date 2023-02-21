@@ -17,8 +17,6 @@ export default function Nav(): JSX.Element{
         visible: { x: "100%" },
     };
 
-    
-    
     return (
         <div className={styles.container}>
                 <nav className={styles.menuNav}>

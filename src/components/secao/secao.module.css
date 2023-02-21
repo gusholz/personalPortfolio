@@ -56,7 +56,7 @@
 .titulo{
     font-family: oswald-regular;
     font-size: 44px;
-    width: 120%;
+    width: 140%;
     margin-bottom: 3%;
 }
 
@@ -79,3 +79,125 @@
     font-size: 22px;
     line-height: 160%;
 }
+
+@media only screen and (max-width: 1240px){
+    .texto{
+        width: 120%;
+    }
+    .gif{
+        max-width: 409.6px;
+        height: fit-content;
+    }
+    .sub_titulo{
+        width: 110%;
+    }
+    .sub_titulo_underline{
+        width: 110%;
+    }
+
+    .secao{
+        margin-bottom: 30vh ;
+    }
+
+}
+
+  /* Estilos para telas de 992 pixels ou mais */
+  @media only screen and (max-width: 992px) {
+    .texto{
+        width: 100%;
+    }
+    
+    .gif{
+        max-width: 409.6px;
+        height: fit-content;
+    }
+    .subContainer{
+        flex-direction: column;
+    }
+    .wrapper{
+        margin-left: 0;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .sub_titulo{
+        font-size: 32px;
+    }
+    
+    .sub_titulo_underline{
+        font-size: 32px;
+    }
+    
+    .texto{
+        font-size: 20px;
+    }
+    .secao{
+        margin-bottom: 30%;
+    }
+}
+  /* Estilos para telas de 768 pixels ou mais */
+  @media only screen and (max-width: 768px) {
+    .gif{
+        max-width: 384px;
+        height: fit-content;
+    }
+    .wrapper{
+        margin-left: 0;
+    }
+    .subContainer{
+        flex-direction: column;
+    }
+  
+    .titulo{
+        font-size: 36px;
+    }
+    
+    .sub_titulo{
+        font-size: 28px;
+    }
+    
+    .sub_titulo_underline{
+        font-size: 28px;
+    }
+    
+    .texto{
+        font-size: 18px;
+    }
+    .secao{
+        margin-bottom: 25% !important;
+    }
+  }
+
+@media only screen and (max-width: 601px) {
+    .gif{
+        max-width: 256px;
+        height: fit-content;
+    }
+    .subContainer{
+        flex-direction: column;
+    }
+    .wrapper{
+        margin-left: 0;
+    }
+    .titulo{
+        font-size: 28px;
+    }
+    
+    .sub_titulo{
+        font-size: 20px;
+    }
+    
+    .sub_titulo_underline{
+        font-size: 20px;
+    }
+    
+    .texto{
+        font-size: 16px;
+    }
+    .secao{
+        margin-bottom: 5% !important;
+    }
+  }
+  
+  

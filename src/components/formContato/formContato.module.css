@@ -9,7 +9,6 @@
 }
 
 .container{
-    background: rgb(0,102,204);
     background: linear-gradient(180deg,rgba(255,153,0,1)  40%,rgba(0,102,204,1)  100%);
     width: 100%;
     height: fit-content;
@@ -24,11 +23,11 @@
     padding-left: 2%;
     padding-bottom: 4%;
     display: flex;
-    height: fit-content;
     flex-direction: column;
     background-color: #0066cc;
     border-radius: 5%;
     align-items: flex-start;
+    border: 1.2px solid #151525;
 }
 
 .input{
@@ -61,7 +60,7 @@
 	color:#151525;
 	padding:16px 31px;
     display: inline-block;
-	font-family:Arial;
+	font-family: oswald-regular;
 	font-size:20px;
 }
 
@@ -72,12 +71,53 @@
 }
 
 .label{
-    font-family: oswald-light;
+    font-family: oswald-regular;
     margin-top: 2%;
     font-size: 20px;
 }
 
-.agradecimento{
-    font-family: oswald-regular;
-    font-size:60px;
+@media only screen and (max-width: 1240px){
+    .contato{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .container{
+        flex-direction: column;
+    }
+
+    .input{
+        width: 75vw;
+    }
+
+    .formulario{
+        align-items: normal;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+    .input{
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 601px){
+    .container{
+        flex-direction: column;
+    }
+    .input{
+        width: 75vw;
+    }
+    .contato{
+        font-size: 28px;
+    }
+
+    .label{
+        font-size: 16px;
+    }
 }
