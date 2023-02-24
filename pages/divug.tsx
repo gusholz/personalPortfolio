@@ -10,9 +10,12 @@ export default function Home () {
             link={`https://www.figma.com/proto/CIX5OwCjkdUdlJjLoBrKAN/IdentidadeVisual?node-id=112%3A62&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=112%3A62`}
             guiaLink={'O link do protótipo utilizável está logo abaixo'}
         >
-            Tive a grande oportunidade de participar do curso de Experiência de Usuário do Instituto Atlântico, e nele, minha equipe de 8 integrantes
-            tomou a difícil decisão de desenvolver um sistema web. Vale destacar que isso foi decidido a partir da nossa análise de dados, oriunda das
-            nossas múltiplas entrevistas com divulgadores científicos de todo o Brasil. Foi decididamente complexo desenvolver tantas páginas e subpáginas,
-            mas creio que o resultado final e o processo foi extremamente rico.
+            Participar do curso de Experiência do Usuário do Instituto Atlântico me permitiu compreender a importância do processo de UX.
+            Com a ajuda da minha equipe, realizei várias entrevistas com divulgadores científicos de todo o Brasil e analisamos os dados
+            coletados para entender suas necessidades e desafios. Em seguida, utilizamos técnicas de clusterização para agrupar as informações
+            em categorias relevantes. Essa etapa foi fundamental para definir os recursos e funcionalidades que nosso sistema web deveria
+            oferecer. Ao longo do processo de desenvolvimento, nossa equipe fez várias iterações e testes com os usuários para garantir
+            que o produto final atendesse às suas expectativas e necessidades. Foi um processo desafiador, mas extremamente gratificante.
+            A experiência me mostrou que o processo de UX é crucial para o sucesso de um projeto, e estou animado para aplicar essas habilidades em projetos futuros.
         </PaginaTrab>
 )}

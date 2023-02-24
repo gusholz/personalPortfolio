@@ -15,7 +15,7 @@
     display: flex;
     background-color: #ffcc00;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
 }
 
 .seta{
@@ -77,17 +77,15 @@
 }
 
 @media only screen and (max-width: 1000px){
-    .container{
-        height: 120vh;
-    }
     .images{
         max-width: 60%;
         max-height: 60%;
+        margin-bottom: 3%;
     }
     .secao{
         flex-direction: column;
         justify-items: flex-start;
-        padding-top: 20%;
+        padding-top: 15%;
     }
     .subContainer{
         margin-left: 0;
@@ -106,6 +104,9 @@
     .texto{
         margin-top: 1%;
         font-size:18px; 
+    }
+    .span{
+        margin-bottom: 2%;
     }
 }
 
