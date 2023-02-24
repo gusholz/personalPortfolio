@@ -1,3 +1,16 @@
+@font-face {
+    font-family: oswald-bold;
+    src: url(../public/fonts/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family: oswald-regular;
+    src: url(../public/fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: oswald-light;
+    src: url(../public/fonts/Oswald-Light.ttf);
+}
+
 .container{
     display: flex;
     background-color: #ffcc00;
@@ -33,18 +46,22 @@
 
 .titulo{
     font-size: 40px;
+    font-family: oswald-bold;
 }
 
 .subTitulo{
     font-size: 28px;
+    font-family: oswald-regular;
 }
 
 .texto{
-    font-size:20px; 
+    font-size:20px;
+    font-family: oswald-light; 
 }
 
 .span{
     font-size: 14px;
+    font-family: oswald-light; 
     margin-top: 3%;
 }
 
@@ -55,6 +72,65 @@
 	color:#151525;
 	padding:16px 31px;
     display: inline-block;
-	font-family:Arial;
+	font-family:oswald-regular;
 	font-size:20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .container{
+        height: 120vh;
+    }
+    .images{
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .secao{
+        flex-direction: column;
+        justify-items: flex-start;
+        padding-top: 20%;
+    }
+    .subContainer{
+        margin-left: 0;
+    }
+    .seta{
+        max-width: 4vw;
+    }
+    .titulo{
+        font-size: 32px;
+    }
+    
+    .subTitulo{
+        font-size: 24px;
+    }
+    
+    .texto{
+        margin-top: 1%;
+        font-size:18px; 
+    }
+}
+
+@media only screen and (max-width: 601px){
+    .titulo{
+        font-size: 28px;
+    }
+    
+    .subTitulo{
+        font-size: 20px;
+    }
+    
+    .texto{
+        max-width: 90%;
+        margin-top: 3%;
+        font-size:16px; 
+    }
+    .images{
+        max-width: 80%;
+    }
+    .secao{
+        padding-top: 30%;
+    }
+    .span{
+        margin-bottom: 3%;
+    }
+
 }

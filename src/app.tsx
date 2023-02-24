@@ -31,14 +31,14 @@ export default function App () {
             backgroundColor={false} 
             titulo='Hoje, fico extremamente feliz com essa decisão, pois compreendo que' 
             subtitulo='o Design é o intermediador entre o usuário e a tecnologia'
-            subtitulo2='e a Experiência de Usuário é pré-requisito de qualquer projeto de excelência' 
+            subtitulo2='E a Experiência de Usuário é fundamental para projetos de excelência' 
             nomeGif={`quarto`}
         >
-            E somente ao unir esses dois conhecimentos, posso desenvolver
-            bons produtos digitais, que levam em
+            E somente ao unir Design com Programação posso desenvolver
+            ótimos produtos digitais, que levam em
             consideração o usuário em todas as diversas etapas
             de desenvolvimento do projeto, para, finalmente, entregar um produto de excêlencia. Nesse sentido,
-            minha experiência com UX também se demonstra muito proveitosa.
+            minha experiência com UX se demonstra essencial.
         </Sessao>
         <FormContato id={id}></FormContato>
     </>

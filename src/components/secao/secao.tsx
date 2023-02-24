@@ -22,14 +22,14 @@ export default function Sessao(props:{titulo:string,subtitulo:string,children:st
                             <h3 className={styles.sub_titulo}>
                                 {props.subtitulo}
                             </h3>
-                            <p className={styles.texto}>
-                                {props.children}
-                            </p>
                             <motion.span initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true }} transition={{duration:8}}>
                                 <h3 className={styles.sub_titulo_underline}>
                                     {props.subtitulo2}
                                 </h3>
                             </motion.span>
+                            <p className={styles.texto}>
+                                {props.children}
+                            </p>
                         </div>
                     </motion.div>
                 </div>
