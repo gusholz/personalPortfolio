@@ -76,7 +76,7 @@ export default function Nav(): JSX.Element{
                                         <motion.h2 whileHover={{scale:1.2}} whileTap={{scale:0.9}} className={styles.infos}>Currículo</motion.h2>
                                     </a>     
                                 </motion.li>
-                                <span className={styles.descricao}>Arquivos complementares disponíveis para download</span>
+                                <span className={styles.descricao}>Arquivos adicionais disponíveis para download</span>
                             </motion.div>
                             <motion.li animate={menuVisivel ? "visible" : "hidden"} whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }} className={styles.li}>
                                 <Link target={"_blank"} href="https://github.com/gusholz"><img className={styles.images} src={`images/githubIcon.svg`}></img></Link>

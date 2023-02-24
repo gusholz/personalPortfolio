@@ -7,7 +7,7 @@ export default function Home () {
             titulo={"Site Interativo do Projeto Co.necto"}
             subtitulo={"Deploy de um site com real utilização por usuário"}
             srcImg={`images/screenshotProjetoConecto.png`}
-            link={`https://gusholz.github.io/countdownPersona/`}
+            link={`https://conecto-teal.vercel.app`}
             guiaLink={'O link do site está logo abaixo'}
         >
             Meu site mais complexo até então, o site do Co.necto tinha como missão demonstrar de um

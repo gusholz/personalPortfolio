@@ -109,13 +109,12 @@
     }
 
     .images{
-        max-width: 3vw;
+        max-width: 3.8vw;
     }
     .infos{
         font-size: 16px;
     }
     .descricao{
-        font-size: 10px;
+        max-width: 80%;
     }
-
 }

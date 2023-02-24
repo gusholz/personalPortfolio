@@ -13,7 +13,7 @@ export default function MostraTrabs():JSX.Element{
                         <motion.img
                             whileHover={{rotate:6}} 
                             className={styles.images} 
-                            alt="" 
+                            alt="Screenshot de site com um contador grande na esquerda e personagem ilustrado na direita" 
                             src={`images/screenshot1countdown.png`}>
                         </motion.img>
                     </Link>
@@ -21,7 +21,7 @@ export default function MostraTrabs():JSX.Element{
                         <motion.img
                             whileHover={{rotate:6}}  
                             className={styles.images} 
-                            alt="" 
+                            alt="Screenshot de site com um peixe psicodélico ilustrado de Aldemir Martins na homepage" 
                             src={`images/screenshotAldemir.png`}>
                         </motion.img>
                     </Link>
@@ -29,7 +29,7 @@ export default function MostraTrabs():JSX.Element{
                         <motion.img
                             whileHover={{rotate:6}}  
                             className={styles.images} 
-                            alt="" 
+                            alt="Screenshot de site com profissionais da área de divugação científica na homepage" 
                             src={`images/screenshotDivug.png`}>
                         </motion.img>
                     </Link>
@@ -37,7 +37,7 @@ export default function MostraTrabs():JSX.Element{
                         <motion.img
                             whileHover={{rotate:6}}  
                             className={styles.images} 
-                            alt="" 
+                            alt="Screenshot de site do projeto Co.necto, uma parceria entre o MIS-CE e a UFC" 
                             src={`images/screenshotProjetoConecto.png`}>
                         </motion.img>
                     </Link>
