@@ -41,7 +41,7 @@
 
 .images{
     max-width: 50%;
-    height: fit-content;
+    max-height: fit-content;
 }
 
 .titulo{
