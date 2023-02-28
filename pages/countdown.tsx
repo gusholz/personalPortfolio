@@ -7,7 +7,7 @@ export default function Home () {
             titulo={"Countdown Persona 5"}
             subtitulo={"Um contador que fiz para o lançamento do jogo para PC"}
             srcImg={`images/screenshot1countdown.png`}
-            link={`https://gusholz.github.io/countdownPersona/`}
+            link={`https://contador-p5.vercel.app`}
             guiaLink={'O site está disponível no link abaixo (API de Buscas foi desabilitada por a key ter sido encerrada :c)'}
         >
             Esse foi meu primeiro projeto utilizando o React, e inicialmente, como foi difícil! Tive certa dificuldade em compreender bem

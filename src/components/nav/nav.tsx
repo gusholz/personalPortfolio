@@ -62,17 +62,17 @@ export default function Nav(): JSX.Element{
                         transition={{ type: "tween", duration: 0.3 }}
                     >
                         <motion.li className={styles.li}>
-                            <a href={`images/0.png`} download={`curriculoGusHolz`} target='_blank'>
+                            <a href={`images/sobre.pdf`} download={`Sobre`} target='_blank'>
                                 <motion.h2 whileHover={{scale:1.2}} whileTap={{scale:0.9}} className={styles.infos}>Sobre</motion.h2>
                             </a>
                             </motion.li>
                             <motion.li className={styles.li}>
-                                <a href={`images/0.png`} download={`curriculoGusHolz`} target='_blank'>
+                                <a href={`images/FAQ.pdf`} download={`FAQ`} target='_blank'>
                                     <motion.h2 whileHover={{scale:1.2}} whileTap={{scale:0.9}} className={styles.infos}>FAQ</motion.h2>     
                                 </a>
                             </motion.li>
                             <motion.li className={styles.li}>
-                                <a href={`images/0.png`} download={`curriculoGusHolz`} target='_blank'>
+                                <a href={`images/curriculoGusHolz.pdf`} download={`curriculoGusHolz`} target='_blank'>
                                     <motion.h2 whileHover={{scale:1.2}} whileTap={{scale:0.9}} className={styles.infos}>Currículo</motion.h2>
                                 </a>     
                             </motion.li>
