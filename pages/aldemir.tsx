@@ -6,7 +6,7 @@ export default function Home () {
         <PaginaTrab
             titulo={"Site Portfólio Aldemir Martins"}
             subtitulo={"Meu primeiro site desenvolvido com HTML, CSS e JavaScript"}
-            srcImg={`images/screenshotAldemir.png`}
+            srcImg={`images/screenshotAldemir.webp`}
             link={`https://gusholz.github.io/sitePG3/`}
             guiaLink={'O site está disponível no link abaixo'}
         >
