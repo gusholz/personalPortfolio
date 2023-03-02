@@ -21,9 +21,9 @@ export default function App () {
             subtitulo2='Definitivamente Front-end' 
             nomeGif={`quarto`}
         >
-            Estudei diversos tópicos ao longo do meu percurso, desde C, Express, Python, fundamentos da computação, 
+            Estudei diversos tópicos ao longo do meu percurso, desde C, Express, MySQL, Python, fundamentos da computação, 
             até chegar finalmente ao JavaScript, linguagem que eu me especializei e que continuo a utilizar
-            nos meus trabalhos, em conjunto com a livraria React e o framework NEXT js. Acredito profundamente
+            nos meus trabalhos, em conjunto com React.js e o framework NEXT js. Acredito profundamente
             que meus conhecimentos e interesses no design me motivaram a permanecer no Front-end, área que mais
             me fascina, dentre as tantas outras da programação. 
         </Sessao>

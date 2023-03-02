@@ -13,7 +13,7 @@ export default function Nav(): JSX.Element{
     }
 
     const menuVariants = {
-        hidden: { x: "-30%" },
+        hidden: { x: "-25%" },
         visible: { x: "80%" },
     };
 
@@ -27,7 +27,7 @@ export default function Nav(): JSX.Element{
                         initial={{ rotate: 0, opacity: 0.5, x:1000 }}
                         animate={{ rotate: menuVisivel ? 180 : 0, opacity: 1, x:0}}
                         whileHover={{ scale: 1.2 }}
-                        style={{ height: "150px" }}
+                        style={{ height: "250px" }}
                     >
                         <motion.span
                             className={styles.hamburguerMenuBar1}
@@ -72,7 +72,7 @@ export default function Nav(): JSX.Element{
                                 </a>
                             </motion.li>
                             <motion.li className={styles.li}>
-                                <a href={`images/curriculoGusHolz.pdf`} download={`curriculoGusHolz`} target='_blank'>
+                                <a href={`images/cvGusHolz.pdf`} download={`CurriculoGus`} target='_blank'>
                                     <motion.h2 whileHover={{scale:1.2}} whileTap={{scale:0.9}} className={styles.infos}>Currículo</motion.h2>
                                 </a>     
                             </motion.li>

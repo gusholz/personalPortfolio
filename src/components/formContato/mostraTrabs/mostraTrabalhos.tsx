@@ -14,7 +14,7 @@ export default function MostraTrabs():JSX.Element{
                             whileHover={{rotate:6}} 
                             className={styles.images} 
                             alt="Screenshot de site com um contador grande na esquerda e personagem ilustrado na direita" 
-                            src={`images/screenshot1countdown.png`}>
+                            src={`images/screenshot1countdown.webp`}>
                         </motion.img>
                     </Link>
                     <Link href={`/aldemir`}>
@@ -22,7 +22,7 @@ export default function MostraTrabs():JSX.Element{
                             whileHover={{rotate:6}}  
                             className={styles.images} 
                             alt="Screenshot de site com um peixe psicodélico ilustrado de Aldemir Martins na homepage" 
-                            src={`images/screenshotAldemir.png`}>
+                            src={`images/screenshotAldemir.webp`}>
                         </motion.img>
                     </Link>
                     <Link href={`/divug`}>
@@ -30,7 +30,7 @@ export default function MostraTrabs():JSX.Element{
                             whileHover={{rotate:6}}  
                             className={styles.images} 
                             alt="Screenshot de site com profissionais da área de divugação científica na homepage" 
-                            src={`images/screenshotDivug.png`}>
+                            src={`images/screenshotDivug.webp`}>
                         </motion.img>
                     </Link>
                     <Link href={`/projetoConecto`}>
@@ -38,7 +38,7 @@ export default function MostraTrabs():JSX.Element{
                             whileHover={{rotate:6}}  
                             className={styles.images} 
                             alt="Screenshot de site do projeto Co.necto, uma parceria entre o MIS-CE e a UFC" 
-                            src={`images/screenshotProjetoConecto.png`}>
+                            src={`images/screenshotProjetoConecto.webp`}>
                         </motion.img>
                     </Link>
                 </div>

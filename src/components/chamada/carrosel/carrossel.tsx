@@ -17,7 +17,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
-                src={`images/15.jpg`}>
+                src={`images/15.webp`}>
             </motion.img>
             <motion.img 
                 initial={{opacity:0.5}}
@@ -33,7 +33,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}
                 className={styles.imgs} 
-                src={`images/2.jpg`}>
+                src={`images/2.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -49,7 +49,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
-                src={`images/16.jpg`}>
+                src={`images/16.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -57,7 +57,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}} 
                 className={`${styles.imgs}`} 
-                src={`images/4.jpg`}>
+                src={`images/4.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -73,7 +73,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}
                 className={styles.imgs} 
-                src={`images/6.jpg`}>
+                src={`images/6.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -81,7 +81,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
-                src={`images/13.jpg`}>
+                src={`images/13.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -89,7 +89,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}} 
                 className={styles.imgs} 
-                src={`images/7.png`}>
+                src={`images/7.webp`}>
             </motion.img>
             <motion.img 
                 initial={{opacity:0.5}}
@@ -97,7 +97,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}} 
                 className={styles.imgs} 
-                src={`images/8.jpg`}>
+                src={`images/8.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -105,7 +105,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}} 
                 transition={{duration:0.6, type:'spring'}} 
                 className={styles.imgs} 
-                src={`images/9.jpg`}>
+                src={`images/9.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -113,7 +113,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
-                src={`images/10.jpg`}>
+                src={`images/10.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -121,7 +121,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
-                src={`images/11.jpg`}>
+                src={`images/11.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -129,7 +129,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
-                src={`images/12.png`}>
+                src={`images/14.webp`}>
             </motion.img>
             <motion.img
                 initial={{opacity:0.5}} 
@@ -137,15 +137,7 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
-                src={`images/14.jpg`}>
-            </motion.img>
-            <motion.img
-                initial={{opacity:0.5}} 
-                whileHover={{rotate:6, opacity :1}}
-                whileTap={{scale:0.9}}
-                transition={{duration:0.6, type:'spring'}}  
-                className={styles.imgs} 
-                src={`images/17.jpg`}>
+                src={`images/17.webp`}>
             </motion.img>
         </motion.div>
     );
