@@ -6,7 +6,7 @@ export default function Home () {
         <PaginaTrab
             titulo={"Plataforma de divugação Científica"}
             subtitulo={"Wireframe de alta fidelidade criado em Curso de UX"}
-            srcImg={`images/screenshotDivug.webp`}
+            srcImg={`images/divug.webp`}
             link={`https://www.figma.com/proto/CIX5OwCjkdUdlJjLoBrKAN/IdentidadeVisual?node-id=112%3A62&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=112%3A62`}
             guiaLink={'O link do protótipo utilizável está logo abaixo'}
         >

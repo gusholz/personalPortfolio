@@ -6,7 +6,7 @@ export default function Home () {
         <PaginaTrab
             titulo={"Site Interativo do Projeto Co.necto"}
             subtitulo={"Deploy de um site com real utilização por usuário"}
-            srcImg={`images/screenshotProjetoConecto.webp`}
+            srcImg={`images/projetoConecto.webp`}
             link={`https://conecto-teal.vercel.app`}
             guiaLink={'O link do site está logo abaixo'}
         >
