@@ -27,7 +27,7 @@ export default function Nav(): JSX.Element{
                         initial={{ rotate: 0, opacity: 0.5, x:1000 }}
                         animate={{ rotate: menuVisivel ? 180 : 0, opacity: 1, x:0}}
                         whileHover={{ scale: 1.2 }}
-                        style={{ height: "250px" }}
+                        style={{ height: "150px" }}
                     >
                         <motion.span
                             className={styles.hamburguerMenuBar1}
