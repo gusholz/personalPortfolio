@@ -3,7 +3,6 @@ import Chamada from './components/chamada/capa';
 import FormContato from '../src/components/formContato/formContato';
 import Nav from '../src/components/nav/nav';
 import Sessao from './components/secao/secao';
-import styles from './app.module.css'
 import '@nextcss/reset';
 
 export default function App () {
@@ -13,19 +12,19 @@ export default function App () {
     return (
     <>
         <Nav/>
-        <Chamada subtitulo={"Designer e Dev Front-end"}>Gustavo Holzmann</Chamada>
+        <Chamada subtitulo={"Designer e Dev"}>Gustavo Holzmann</Chamada>
         <Sessao 
             backgroundColor={true}
-            titulo='Desmotivado durante a quarentena, comecei a estudar programação' 
+            titulo='Desmotivado durante a quarentena, começo a estudar programação' 
             subtitulo='Entre Backend e Front-end'
             subtitulo2='Definitivamente Front-end' 
             nomeGif={`quarto`}
         >
-            Estudei diversos tópicos ao longo do meu percurso, desde C, Express, MySQL, Python, fundamentos da computação, 
+            Estudei diversos tópicos ao longo do meu percurso, desde C, Express, MySQL, Python, Java, 
             até chegar finalmente ao JavaScript, linguagem que eu me especializei e que continuo a utilizar
             nos meus trabalhos, em conjunto com React.js e o framework NEXT js. Acredito profundamente
-            que meus conhecimentos e interesses no design me motivaram a permanecer no Front-end, área que mais
-            me fascina, dentre as tantas outras da programação. 
+            que meus conhecimentos e interesses no design me motivaram a me interessar mais no Front-end,
+            onde questões como cores, tipografia e animação tem uma maior importância.
         </Sessao>
         <Sessao 
             backgroundColor={false} 

@@ -31,7 +31,7 @@ export default function PaginaTrab(props:{titulo:string,subtitulo:string, childr
                         {props.children}
                     </p>
                     <span className={styles.span}>{props.guiaLink}</span>
-                    <Link href={props.link} className={styles.link}>Ir para o site</Link>
+                    <Link href={props.link} className={styles.link}>Visualizar</Link>
                 </div>
             </section>
         </div>

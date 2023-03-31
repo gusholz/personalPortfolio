@@ -19,6 +19,14 @@ import styles from "./carrossel.module.css";
                 className={styles.imgs} 
                 src={`images/15.webp`}>
             </motion.img>
+            <motion.img
+                initial={{opacity:0.5}} 
+                whileHover={{rotate:6, opacity :1}}
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
+                className={styles.imgs} 
+                src={`images/18.webp`}>
+            </motion.img>
             <motion.img 
                 initial={{opacity:0.5}}
                 whileHover={{rotate:6, opacity :1}}
@@ -71,6 +79,14 @@ import styles from "./carrossel.module.css";
                 initial={{opacity:0.5}} 
                 whileHover={{rotate:6, opacity :1}}
                 whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
+                className={styles.imgs} 
+                src={`images/20.webp`}>
+            </motion.img>
+            <motion.img
+                initial={{opacity:0.5}} 
+                whileHover={{rotate:6, opacity :1}}
+                whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}
                 className={styles.imgs} 
                 src={`images/6.webp`}>
@@ -90,6 +106,14 @@ import styles from "./carrossel.module.css";
                 transition={{duration:0.6, type:'spring'}} 
                 className={styles.imgs} 
                 src={`images/7.webp`}>
+            </motion.img>
+            <motion.img
+                initial={{opacity:0.5}} 
+                whileHover={{rotate:6, opacity :1}}
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
+                className={styles.imgs} 
+                src={`images/24.webp`}>
             </motion.img>
             <motion.img 
                 initial={{opacity:0.5}}
@@ -137,7 +161,39 @@ import styles from "./carrossel.module.css";
                 whileTap={{scale:0.9}}
                 transition={{duration:0.6, type:'spring'}}  
                 className={styles.imgs} 
+                src={`images/22.webp`}>
+            </motion.img>
+            <motion.img
+                initial={{opacity:0.5}} 
+                whileHover={{rotate:6, opacity :1}}
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
+                className={styles.imgs} 
+                src={`images/23.webp`}>
+            </motion.img>
+            <motion.img
+                initial={{opacity:0.5}} 
+                whileHover={{rotate:6, opacity :1}}
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
+                className={styles.imgs} 
                 src={`images/17.webp`}>
+            </motion.img>
+            <motion.img
+                initial={{opacity:0.5}} 
+                whileHover={{rotate:6, opacity :1}}
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
+                className={styles.imgs} 
+                src={`images/19.webp`}>
+            </motion.img>
+            <motion.img
+                initial={{opacity:0.5}} 
+                whileHover={{rotate:6, opacity :1}}
+                whileTap={{scale:0.9}}
+                transition={{duration:0.6, type:'spring'}}  
+                className={styles.imgs} 
+                src={`images/21.webp`}>
             </motion.img>
         </motion.div>
     );

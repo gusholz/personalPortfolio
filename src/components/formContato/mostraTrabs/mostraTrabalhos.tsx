@@ -7,7 +7,7 @@ export default function MostraTrabs():JSX.Element{
         <>
             <div className={styles.container}>
                 <h2 className={styles.h2}>Trabalhos Selecionados</h2>
-                <h3 className={styles.h3}>Alguns dos meus trabalhos de desenvolvimento de sites</h3>
+                <h3 className={styles.h3}>Alguns dos meus trabalhos de desenvolvimento</h3>
                 <div className={styles.trabalhos}>
                     <Link href={`/countdown`}>
                         <motion.img
@@ -39,6 +39,14 @@ export default function MostraTrabs():JSX.Element{
                             className={styles.images} 
                             alt="Screenshot de site do projeto Co.necto, uma parceria entre o MIS-CE e a UFC" 
                             src={`images/projetoConecto.webp`}>
+                        </motion.img>
+                    </Link>
+                    <Link href={`/interacaoGhibli`}>
+                        <motion.img
+                            whileHover={{rotate:6}}  
+                            className={styles.images} 
+                            alt="Screenshot de interação feita pelo processing. Duas crianças no mar em cima de um barco" 
+                            src={`images/interacaoGhibli.webp`}>
                         </motion.img>
                     </Link>
                 </div>
